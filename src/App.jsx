@@ -13,7 +13,7 @@ function App() {
   const [diretor, setDiretor] = useState([]);
 
   return (
-    <HashRouter basename="/navegacao-academica">
+    <HashRouter>
 
       <nav className="navbar navbar-dark bg-dark">
         <div className="container">
