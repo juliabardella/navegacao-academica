@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import { HashRouter, Routes, Route, Link } from 'react-router-dom';
 import { useState } from 'react';
 
 import FormPage from './pages/FormPage';
@@ -13,7 +13,7 @@ function App() {
   const [diretor, setDiretor] = useState([]);
 
   return (
-    <BrowserRouter basename="/reactacademico">
+    <HashRouter basename="/navegacao-academica">
 
       <nav className="navbar navbar-dark bg-dark">
         <div className="container">
@@ -103,7 +103,7 @@ function App() {
 
       </Routes>
 
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
